@@ -1,0 +1,880 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Muza Store</title>
+  <meta name="description" content="Muza Store - одна из крупнейших музыкальных баз данных с возможностью покупать и продавать музыкальные издания.">
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
+  <link rel="icon" type="image/png" href="img/icons/favicon.png">
+</head>
+<body>
+  <div id="wrapper">
+    <div id="hd">
+      <div class="hd_content content_width">
+	    <div class="hd_part hd_left">
+		  <div class="hd_hidemenu hd_elem">
+		    <img class="hd_hidemenu-icon" src="img/icons/menu.png" alt="Меню">
+		  </div>
+	      <div class="hd_logo hd_elem">
+	        <img class="hd_logo-icon" src="img/icons/logo.png" alt="На главную">
+		    <p class="hd_logo-label">Muza Store</p>
+	      </div>
+	      <ul class="hd_menu">
+	        <li class="hd_item">
+		      <a class="hd_item-link" href="">Форматы</a>
+		    </li>
+		    <li class="hd_item">
+		      <a class="hd_item-link" href="">Исполнители</a>
+		    </li>
+		    <li class="hd_item">
+		      <a class="hd_item-link" href="">Жанры</a>
+		    </li>
+		    <li class="hd_item">
+		      <a class="hd_item-link" href="">Сообщество</a>
+		    </li>
+	      </ul>
+	    </div>
+	    <div class="hd_part hd_right">
+	      <div class="hd_shop hd_elem">
+		    <img class="hd_shop hd_icon" src="img/icons/shop.png" alt="Корзина">
+			<a class="hd_label">3</a>
+		  </div>
+		  <div class="hd_money hd_elem">
+		    <img class="hd_money hd_icon" src="img/icons/money.png" alt="Кошелек">
+		    <a class="hd_label">6 640₽</a>
+		  </div>
+		  <div class="hd_bell hd_elem">
+		    <img class="hd_bell hd_icon" src="img/icons/bell.png" alt="Уведомления">
+		    <a class="hd_label">2</a>
+		  </div>
+		  <div class="hd_user hd_elem">
+		    <a class="hd_user-label" href="">Никита Заяц</a>
+		    <img class="hd_user-icon" src="img/user/profilepic_small.jpg" alt="Профиль">
+		  </div>
+	    </div>
+	  </div>
+	</div>
+	<div id="content">
+	  <div class="welcome">
+		<div class="wc_info content_width">
+		  <div class="wc_info-text txsh">
+		    <p class="wc_info-text-title txsh">Музыка нас связала</p>
+		    <p class="wc_info-text-caption txsh">Одна из крупнейших музыкальных баз данных с возможностью покупать и продавать музыкальные издания</p>
+	      </div>
+		  <div class="wc_button fakebutton">
+		    <img class="wc_button-icon" src="img/icons/search.png" alt="Поиск">
+		    <p class="wc_button-label">Найти музыку</p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="contentblock content_width">
+	    <div class="cb_hd">
+		  <div class="cb_hd-sug">
+		    <div class="cb_hd-title">
+		      <img class="cb_hd-ht-icon" src="img/icons/lamp.png" alt="Рекомендации">
+	          <p class="cb_hd-ht">Рекомендации</p>
+		    </div>
+			<p class="cb_hd-hi">Подборка на основе ваших покупок и продаж</p>
+		  </div>
+		  <div class="cb_hd-sugbtn">
+		    <a class="cb_hd-btn2 fakebutton">Больше не рекомендовать</a>
+		    <a class="cb_hd-btn fakebutton">Смотреть ещё</a>
+		  </div>
+		</div>
+		<div class="cb_showcase">
+		  <div class="cb_sc-elem">
+		    <img class="cb_sc-artwork" src="img/artwork/13.jpg" alt="Альбом">
+			<div class="cb_sc-info">
+			  <p class="cb_sc-name">One Hundred Mornings</p>
+			  <p class="cb_sc-artist">Windows96</p>
+			  <div class="cb_sc-price">
+			    <p>3 000₽</p>
+				<p class="oldprice">3 600₽</p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="cb_sc-elem">
+		    <img class="cb_sc-artwork" src="img/artwork/14.jpg" alt="Альбом">
+			<div class="cb_sc-info">
+			  <p class="cb_sc-name">Sixteen Oceans</p>
+			  <p class="cb_sc-artist">Four Tet</p>
+			  <div class="cb_sc-price">
+			    <p>2 900₽</p>
+				<p class="oldprice">3 000₽</p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="cb_sc-elem">
+		    <img class="cb_sc-artwork" src="img/artwork/15.jpg" alt="Альбом">
+			<div class="cb_sc-info">
+			  <p class="cb_sc-name">Iteration</p>
+			  <p class="cb_sc-artist">Com Truise</p>
+			  <div class="cb_sc-price">
+			    <p>2 500₽</p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="cb_sc-elem">
+		   <img class="cb_sc-artwork" src="img/artwork/16.jpg" alt="Альбом">
+			<div class="cb_sc-info">
+			  <p class="cb_sc-name">Past Is Prologue</p>
+			  <p class="cb_sc-artist">Tycho</p>
+			  <div class="cb_sc-price">
+			    <p>2 499₽</p>
+				<p class="oldprice">2 999₽</p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="cb_sc-elem">
+		    <img class="cb_sc-artwork" src="img/artwork/17.jpg" alt="Альбом">
+			<div class="cb_sc-info">
+			  <p class="cb_sc-name">Telescope</p>
+			  <p class="cb_sc-artist">Tennyson</p>
+			  <div class="cb_sc-price">
+			    <p>2 000₽</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="contentblock content_width">
+	    <div class="cb_hd">
+		  <div class="cb_hd-title">
+		    <img class="cb_hd-ht-icon" src="img/icons/hot.png" alt="Продают сейчас">
+	        <p class="cb_hd-ht">Продают сейчас</p>
+		  </div>
+		  <a class="cb_hd-btn fakebutton">Смотреть ещё</a>
+		</div>
+		<div class="cb_showcase">
+		  <div class="cb_sc-elem">
+		    <img class="cb_sc-artwork" src="img/artwork/1.jpg" alt="Альбом">
+			<div class="cb_sc-info">
+			  <p class="cb_sc-name">Northern Star</p>
+			  <p class="cb_sc-artist">Melanie C</p>
+			  <div class="cb_sc-price">
+			    <p>2 300₽</p>
+				<p class="oldprice">2 700₽</p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="cb_sc-elem">
+		    <img class="cb_sc-artwork" src="img/artwork/2.jpg" alt="Альбом">
+			<div class="cb_sc-info">
+			  <p class="cb_sc-name">Harry's House</p>
+			  <p class="cb_sc-artist">Harry Styles</p>
+			  <div class="cb_sc-price">
+			    <p>2 000₽</p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="cb_sc-elem">
+		    <img class="cb_sc-artwork" src="img/artwork/3.jpg" alt="Альбом">
+			<div class="cb_sc-info">
+			  <p class="cb_sc-name">We</p>
+			  <p class="cb_sc-artist">Arcade Fire</p>
+			  <div class="cb_sc-price">
+			    <p>1 990₽</p>
+				<p class="oldprice">2 000₽</p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="cb_sc-elem">
+		   <img class="cb_sc-artwork" src="img/artwork/4.jpg" alt="Альбом">
+			<div class="cb_sc-info">
+			  <p class="cb_sc-name">Love Over Gold</p>
+			  <p class="cb_sc-artist">Dire Straits</p>
+			  <div class="cb_sc-price">
+			    <p>2 400₽</p>
+				<p class="oldprice">2 500₽</p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="cb_sc-elem">
+		    <img class="cb_sc-artwork" src="img/artwork/7.jpg" alt="Альбом">
+			<div class="cb_sc-info">
+			  <p class="cb_sc-name">Whenever You Need Somebody</p>
+			  <p class="cb_sc-artist">Rick Astley</p>
+			  <div class="cb_sc-price">
+			    <p>2 500₽</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="contentblock content_width">
+	    <div class="cb_hd">
+		  <div class="cb_hd-title">
+		    <img class="cb_hd-ht-icon" src="img/icons/history.png" alt="Продано только что">
+	        <p class="cb_hd-ht">Продано только что</p>
+		  </div>
+		  <a class="cb_hd-btn fakebutton">Смотреть ещё</a>
+		</div>
+		<div class="cb_showcase">
+		  <div class="cb_sc-elem">
+		    <img class="cb_sc-artwork" src="img/artwork/8.jpg" alt="Альбом">
+			<div class="cb_sc-info">
+			  <p class="cb_sc-name">Alive 1997</p>
+			  <p class="cb_sc-artist">Daft Punk</p>
+			  <div class="cb_sc-soldprice">
+			    <p>2 900₽</p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="cb_sc-elem">
+		    <img class="cb_sc-artwork" src="img/artwork/9.jpg" alt="Альбом">
+			<div class="cb_sc-info">
+			  <p class="cb_sc-name">More D4ta</p>
+			  <p class="cb_sc-artist">Moderat</p>
+			  <div class="cb_sc-soldprice">
+			    <p>2 299₽</p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="cb_sc-elem">
+		    <img class="cb_sc-artwork" src="img/artwork/10.jpg" alt="Альбом">
+			<div class="cb_sc-info">
+			  <p class="cb_sc-name">Zeit</p>
+			  <p class="cb_sc-artist">Rammstein</p>
+			  <div class="cb_sc-soldprice">
+			    <p>1 750₽</p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="cb_sc-elem">
+		   <img class="cb_sc-artwork" src="img/artwork/11.jpg" alt="Альбом">
+			<div class="cb_sc-info">
+			  <p class="cb_sc-name">Peppa's Adventures: The Album</p>
+			  <p class="cb_sc-artist">Peppa Pig</p>
+			  <div class="cb_sc-soldprice">
+			    <p>3 000₽</p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="cb_sc-elem">
+		    <img class="cb_sc-artwork" src="img/artwork/12.jpg" alt="Альбом">
+			<div class="cb_sc-info">
+			  <p class="cb_sc-name">Epsilon In Malaysian Pale</p>
+			  <p class="cb_sc-artist">Edgar Froese</p>
+			  <div class="cb_sc-soldprice">
+			    <p>2 499₽</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  
+	  <div class="contentblock content_width">
+	    <div class="cb_hd">
+		  <div class="cb_hd-title">
+		    <img class="cb_hd-ht-icon" src="img/icons/hearts.png" alt="Голосование">
+	        <p class="cb_hd-ht">Голосование</p>
+		  </div>
+		  <a class="cb_hd-btn fakebutton">Смотреть ещё</a>
+	    </div>
+		<div class="cv_showcase">
+		
+		  <div class="cv_sc-elem">
+		    <div class="cv_sc-hd">
+			  <p class="cv_sc-hd-label">Лучший альбом месяца</p>
+			</div>
+			<div class="cv_sc-li">
+			
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">1</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/up.png" alt="Вверх">
+					<p class="cv_sc-li-el-n-s-l txt_votelistup">7</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/18.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">The Complete Thom Bell Sessions</p>
+					<p class="cv_sc-li-el-t-l-a">Elton John</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">2</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/down.png" alt="Вниз">
+					<p class="cv_sc-li-el-n-s-l txt_votelistdown">1</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/19.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">Relaxin' With The Miles Davis Quintet</p>
+					<p class="cv_sc-li-el-t-l-a">The Miles Davis Quintet</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">3</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/line.png" alt="Не изменилось">
+					<p class="cv_sc-li-el-n-s-l">0</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/1.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">Northern Star</p>
+					<p class="cv_sc-li-el-t-l-a">Melanie C</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">4</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/up.png" alt="Вверх">
+					<p class="cv_sc-li-el-n-s-l txt_votelistup">2</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/10.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">Zeit</p>
+					<p class="cv_sc-li-el-t-l-a">Rammstein</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">5</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/up.png" alt="Вверх">
+					<p class="cv_sc-li-el-n-s-l txt_votelistup">1</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/20.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">Poison</p>
+					<p class="cv_sc-li-el-t-l-a">Bll Biv Devoe</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">6</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/line.png" alt="Не изменилось">
+					<p class="cv_sc-li-el-n-s-l">0</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/21.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">Vol. 2</p>
+					<p class="cv_sc-li-el-t-l-a">Jazz Sabbath</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">7</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/down.png" alt="Вниз">
+					<p class="cv_sc-li-el-n-s-l txt_votelistdown">1</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/22.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">Modern Lovers 88</p>
+					<p class="cv_sc-li-el-t-l-a">Jonathan Richman And The Modern Lovers</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">8</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/up.png" alt="Вверх">
+					<p class="cv_sc-li-el-n-s-l txt_votelistup">13</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/23.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">To Hell With It</p>
+					<p class="cv_sc-li-el-t-l-a">PinkPantheress</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">9</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/up.png" alt="Вверх">
+					<p class="cv_sc-li-el-n-s-l txt_votelistup">5</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/24.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">Angel Rat</p>
+					<p class="cv_sc-li-el-t-l-a">Voïvod </p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">10</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/down.png" alt="Вниз">
+					<p class="cv_sc-li-el-n-s-l txt_votelistdown">2</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/25.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">Fantastic Damage</p>
+					<p class="cv_sc-li-el-t-l-a">El-P</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			</div>
+			  
+			<div class="cv_sc-com-more fakebutton">
+                <img class="cv_sc-com-mic" src="img/icons/more.png" alt="Смотреть полностью">
+				<p class="cv_sc-com-mlb">Смотреть полностью</p>
+			</div>
+			
+		  </div>
+		  
+		  <div class="cv_sc-elem">
+		    <div class="cv_sc-hd">
+			  <p class="cv_sc-hd-label">Лучший альбом года</p>
+			</div>
+			<div class="cv_sc-li">
+			
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">1</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/up.png" alt="Вверх">
+					<p class="cv_sc-li-el-n-s-l txt_votelistup">1</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/26.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">Medicine at Midnight</p>
+					<p class="cv_sc-li-el-t-l-a">Foo Fighters</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">2</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/up.png" alt="Вверх">
+					<p class="cv_sc-li-el-n-s-l txt_votelistup">2</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/27.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">Californian Soil</p>
+					<p class="cv_sc-li-el-t-l-a">London Grammar</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">3</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/down.png" alt="Вниз">
+					<p class="cv_sc-li-el-n-s-l txt_votelistdown">1</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/28.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">Daddy's Home</p>
+					<p class="cv_sc-li-el-t-l-a">St. Vincent</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">4</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/down.png" alt="Вниз">
+					<p class="cv_sc-li-el-n-s-l txt_votelistdown">1</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/29.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">If I Can't Have Love, I Want Power</p>
+					<p class="cv_sc-li-el-t-l-a">Halsey</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">5</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/line.png" alt="Не изменилось">
+					<p class="cv_sc-li-el-n-s-l">0</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/30.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">Helloween</p>
+					<p class="cv_sc-li-el-t-l-a">Helloween</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">6</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/up.png" alt="Вверх">
+					<p class="cv_sc-li-el-n-s-l txt_votelistup">1</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/31.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">Senjutsu</p>
+					<p class="cv_sc-li-el-t-l-a">Iron Maiden</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">7</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/down.png" alt="Вниз">
+					<p class="cv_sc-li-el-n-s-l txt_votelistdown">1</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/32.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">Blue Weekend</p>
+					<p class="cv_sc-li-el-t-l-a">Wolf Alice</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">8</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/up.png" alt="Вверх">
+					<p class="cv_sc-li-el-n-s-l txt_votelistup">3</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/33.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">Lifeforms</p>
+					<p class="cv_sc-li-el-t-l-a">Angels & Airwaves</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">9</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/up.png" alt="Вверх">
+					<p class="cv_sc-li-el-n-s-l txt_votelistup">2</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/34.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">Infinite Granite</p>
+					<p class="cv_sc-li-el-t-l-a">Deafheaven</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			  <div class="cv_sc-li-el">
+			    <div class="cv_sc-li-el-n">
+				  <p class="cv_sc-li-el-n-t">10</p>
+				  <div class="cv_sc-li-el-n-s">
+				    <img class="cv_sc-li-el-n-s-p" src="img/icons/down.png" alt="Вниз">
+					<p class="cv_sc-li-el-n-s-l txt_votelistdown">1</p>
+				  </div>
+				</div>
+				<div class="cv_sc-li-el-t">
+				  <img class="cv_sc-li-el-t-icon" src="img/artwork/35.jpg" alt="Альбом">
+				  <div class="cv_sc-li-el-t-l">
+				    <p class="cv_sc-li-el-t-l-n">For Those That Wish To Exist</p>
+					<p class="cv_sc-li-el-t-l-a">Architects</p>
+				  </div>
+				</div>
+				<img class="cv_sc-li-el-v-icon" src="img/icons/like.png" alt="Голосовать">
+			  </div>
+			  
+			</div>
+			
+			<div class="cv_sc-com-more fakebutton">
+                <img class="cv_sc-com-mic" src="img/icons/more.png" alt="Смотреть полностью">
+				<p class="cv_sc-com-mlb">Смотреть полностью</p>
+			</div>
+			
+		  </div>
+		  
+		</div>		
+	  </div>	  
+	  
+	  <div class="contentblock content_width">
+	    <div class="cb_hd">
+		  <div class="cb_hd-title">
+		    <img class="cb_hd-ht-icon" src="img/icons/community.png" alt="Сообщество">
+	        <p class="cb_hd-ht">Сообщество</p>
+		  </div>
+		  <a class="cb_hd-btn fakebutton">Читать ещё</a>
+		</div>
+		<div class="cm_showcase">
+		
+		  <div class="cm_sc-elem">
+		    <div class="cm_sc-hd">
+			  <div class="cm_sc-at">
+			    <img class="cm_sc-at-av" src="img/user/pp/1.jpg" alt="Максим Ильин">
+				<p class="cm_sc-at-us">Максим Ильин</p>
+			  </div>
+			  <div class="cm_sc-time">47 мин. назад</div>
+			</div>
+			<div class="cm_sc-theme">
+			  <p class="cm_sc-title">Подскажите где найти American Idiot от Green Day на CD</p>
+			  <p class="cm_sc-desc">Всем привет. Обшерстил весь сайт, но так и не нашёл в продаже этот альбом на сд. В жизни не поверю, что его ни у кого нет. Подскажите, где его можно приобрести. Заранее спасибо!</p>
+			</div>
+			<div class="cm_sc-com">
+			  <div class="cm_sc-com-hd">
+			    <img class="cm_sc-com-icon" src="img/icons/comments.png" alt="Комментарии">
+				<p class="cm_sc-com-label">19 комментариев</p>
+			  </div>
+			  <div class="cm_sc-com-elem">
+			    <div class="cm_sc-com-elem-at">
+			      <img class="cm_sc-at-av" src="img/user/pp/2.jpg" alt="Александр Неборак">
+				  <p class="cm_sc-at-us">Александр Неборак</p>
+			    </div>
+				<p class="cm_sc-com-el-label">Чё такое грин дед? Я слушаю только диалоги тет-а-тет</p>
+				<p class="cm_sc-com-el-time">5 мин. назад</p>
+			  </div>
+			  <div class="cm_sc-com-elem">
+			    <div class="cm_sc-com-elem-at">
+			      <img class="cm_sc-at-av" src="img/user/pp/3.png" alt="Сергей Енотов">
+				  <p class="cm_sc-at-us">Сергей Енотов</p>
+			    </div>
+				<p class="cm_sc-com-el-label">Тоже вчера искал и не нашел. Походу баг какой-то</p>
+				<p class="cm_sc-com-el-time">8 мин. назад</p>
+			  </div>
+			  <div class="cm_sc-com-elem">
+			    <div class="cm_sc-com-elem-at">
+			      <img class="cm_sc-at-av" src="img/user/pp/4.png" alt="Игорь Бздрях">
+				  <p class="cm_sc-at-us">Игорь Бздрях</p>
+			    </div>
+				<p class="cm_sc-com-el-label">там траблы с ап вознилки, на время их снесли....</p>
+				<p class="cm_sc-com-el-time">13 мин. назад</p>
+			  </div>
+			  <div class="cm_sc-com-more fakebutton">
+                  <img class="cm_sc-com-mic" src="img/icons/more.png" alt="Читать дальше">
+				  <p class="cm_sc-com-mlb">Читать дальше</p>
+			  </div>
+			</div>
+		  </div>
+		  
+		  <div class="cm_sc-elem">
+		    <div class="cm_sc-hd">
+			  <div class="cm_sc-at">
+			    <img class="cm_sc-at-av" src="img/user/pp/5.png" alt="Олег Васильев">
+				<p class="cm_sc-at-us">Олег Васильев</p>
+			  </div>
+			  <div class="cm_sc-time">1 ч. назад</div>
+			</div>
+			<div class="cm_sc-theme">
+			  <p class="cm_sc-title">Что послушать после сдачи ЕГЭ?</p>
+			  <p class="cm_sc-desc">Доброе утро, день, вечер или что у вас там. Нужна музыка, которая успокоит после сдачи экзаменов. Спасибо)</p>  
+			</div>
+			<div class="cm_sc-com">
+			  <div class="cm_sc-com-hd">
+			    <img class="cm_sc-com-icon" src="img/icons/comments.png" alt="Комментарии">
+				<p class="cm_sc-com-label">7 комментариев</p>
+			  </div>
+			  <div class="cm_sc-com-elem">
+			    <div class="cm_sc-com-elem-at">
+			      <img class="cm_sc-at-av" src="img/user/pp/6.png" alt="Иван Взводов">
+				  <p class="cm_sc-at-us">Иван Взводов</p>
+			    </div>
+				<p class="cm_sc-com-el-label">песня юность в сапогах из сериала солдаты)))))</p>
+				<p class="cm_sc-com-el-time">37 мин. назад</p>
+			  </div>
+			  <div class="cm_sc-com-elem">
+			    <div class="cm_sc-com-elem-at">
+			      <img class="cm_sc-at-av" src="img/user/pp/7.jpg" alt="Валентин Арбузов">
+				  <p class="cm_sc-at-us">Валентин Арбузов</p>
+			    </div>
+				<p class="cm_sc-com-el-label">Ария - Я свободен</p>
+				<p class="cm_sc-com-el-time">42 мин. назад</p>
+			  </div>
+			  <div class="cm_sc-com-elem">
+			    <div class="cm_sc-com-elem-at">
+			      <img class="cm_sc-at-av" src="img/user/pp/8.jpg" alt="Дмитрий Кузнецов">
+				  <p class="cm_sc-at-us">Дмитрий Кузнецов</p>
+			    </div>
+				<p class="cm_sc-com-el-label">после экзаменов больше всего хочется слушать тишину</p>
+				<p class="cm_sc-com-el-time">1 ч. назад</p>
+			  </div>
+			  <div class="cm_sc-com-more fakebutton">
+                  <img class="cm_sc-com-mic" src="img/icons/more.png" alt="Читать дальше">
+				  <p class="cm_sc-com-mlb">Читать дальше</p>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="cm_sc-elem">
+		    <div class="cm_sc-hd">
+			  <div class="cm_sc-at">
+			    <img class="cm_sc-at-av" src="img/user/pp/9.jpg" alt="Ярослав Поляков">
+				<p class="cm_sc-at-us">Ярослав Поляков</p>
+			  </div>
+			  <div class="cm_sc-time">45 мин. назад</div>
+			</div>
+			<div class="cm_sc-theme">
+			  <p class="cm_sc-title">как правильно отправить посылку с виниловой пластинкой?</p>
+			  <p class="cm_sc-desc">собираюсь отправить посылку с винилом в другой город. боюсь, что она разобьётся. как правильно упаковать?</p> 
+			</div>
+			<div class="cm_sc-com">
+			  <div class="cm_sc-com-hd">
+			    <img class="cm_sc-com-icon" src="img/icons/comments.png" alt="Комментарии">
+				<p class="cm_sc-com-label">32 комментария</p>
+			  </div>
+			  <div class="cm_sc-com-elem">
+			    <div class="cm_sc-com-elem-at">
+			      <img class="cm_sc-at-av" src="img/user/pp/10.jpg" alt="Юрий Ефимов">
+				  <p class="cm_sc-at-us">Юрий Ефимов</p>
+			    </div>
+				<p class="cm_sc-com-el-label">Берёшь два листа картона и пакет с пупыркой внутри - этого будет достаточно.</p>
+				<p class="cm_sc-com-el-time">10 мин. назад</p>
+			  </div>
+			  <div class="cm_sc-com-elem">
+			    <div class="cm_sc-com-elem-at">
+			      <img class="cm_sc-at-av" src="img/user/pp/11.png" alt="Захар Котов">
+				  <p class="cm_sc-at-us">Захар Котов</p>
+			    </div>
+				<p class="cm_sc-com-el-label">если отправляешь почтой России, то неважно как ты её там упаковываешь))</p>
+				<p class="cm_sc-com-el-time">13 мин. назад</p>
+			  </div>
+			  <div class="cm_sc-com-elem">
+			    <div class="cm_sc-com-elem-at">
+			      <img class="cm_sc-at-av" src="img/user/pp/12.jpg" alt="Даниил Горбунов">
+				  <p class="cm_sc-at-us">Даниил Горбунов</p>
+			    </div>
+				<p class="cm_sc-com-el-label">пакуешь в картонную коробку, прокладываешь полистиролом чтобы ничего не болталось или в пузырчатый полиэтилен.. проще говоря, нужна твёрдая коробка и какие-нибудь ребра жесткости внутри (картона наложить) и будет норм..</p>
+				<p class="cm_sc-com-el-time">17 мин. назад</p>
+			  </div>
+			  <div class="cm_sc-com-more fakebutton">
+                  <img class="cm_sc-com-mic" src="img/icons/more.png" alt="Читать дальше">
+				  <p class="cm_sc-com-mlb">Читать дальше</p>
+			  </div>
+			</div>
+		  </div>		  
+		</div>
+	  </div>
+	    
+	  <div class="help">
+		<div class="hp_info content_width">
+		  <div class="hp_info-text">
+		    <p class="hp_info-text-title">Есть вопросы?</p>
+		    <p class="hp_info-text-caption">Обратитесь к экспертам и администрации портала</p>
+	      </div>
+		  <div class="hp_button fakebutton">
+		    <img class="hp_button-icon" src="img/icons/mes.png" alt="Напишите нам">
+		    <p class="hp_button-label">Напишите нам</p>
+		  </div>
+		</div>
+	  </div>
+	  
+	  <div id="footer">
+	    <div class="ft_content content_width">
+	      <div class="ft_part ft_up">
+	        <ul class="ft_ml">
+	          <li class="ft_ml_item">
+		        <a class="ft_ml-link" href="">О нас</a>
+		      </li>
+			  <li class="ft_ml_item">
+		        <a class="ft_ml-link" href="">Контакты</a>
+		      </li>
+	          <li class="ft_ml_item">
+		        <a class="ft_ml-link" href="">Правила</a>
+		      </li>
+	          <li class="ft_ml_item">
+		        <a class="ft_ml-link" href="">Политика конфиденциальности</a>
+		      </li>
+	        </ul>
+			<div class="ft_mr">
+			  <img class="ft_mr-icon" src="img/icons/vk.png" alt="ВКонтакте">
+			  <img class="ft_mr-icon" src="img/icons/fb.png" alt="Facebook">
+			  <img class="ft_mr-icon" src="img/icons/ig.png" alt="Instagram">
+			  <img class="ft_mr-icon" src="img/icons/tw.png" alt="Twitter">
+			  <img class="ft_mr-icon" src="img/icons/tg.png" alt="Telegram">
+			</div>
+		  </div>
+		  <div class="ft_part ft_low">
+		  	<div class="ft_logo">
+	          <img class="ft_logo-icon" src="img/icons/logo.png" alt="Muza Store">
+		      <p class="ft_logo-label">Muza Store</p>
+	        </div>
+			<div class="ft_copyright">
+			  <p class="ft_copyright-label">© 2022 Muza Store. Все права защищены</p>
+			  <p class="ft_copyright-label-sb">РГР №2 Заяц Н.О. БО931ПРИ</p>
+		  </div>
+		</div>
+	  </div>
+	
+	</div>
+  </div>
+  </div>
+</body>
+</html>
