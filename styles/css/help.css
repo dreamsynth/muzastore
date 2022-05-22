@@ -1,0 +1,57 @@
+.help {
+	width: 100%;
+	height: auto;
+	background-color: #0001;
+	display: flex;
+	align-items: center;
+	margin-top: 24px;
+	padding: 48px 0;
+}
+
+.hp_info {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+    gap: 32px;	
+}
+
+.hp_info-text-title {
+	font-weight: 600;
+	font-size: 48px;
+	text-align: center;
+	color: #0f2151;
+	margin-bottom: 12px;
+}
+
+.hp_info-text-caption {
+	font-weight: 500;
+	font-size: 24px;
+	text-align: center;
+	color: #555;
+}
+
+.hp_button {
+	background-color: #fb2950;
+	border-radius: 8px;
+	padding: 8px 24px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.hp_button-icon {
+	filter: invert(1);
+	display: block;
+	padding: 4px;
+	width: 36px;
+	height: 36px;
+}
+
+.hp_button-label {
+	font-weight: 600;
+	margin-right: 6px;
+	font-size: 20px;
+	color: #fff;
+	user-select: none;
+}

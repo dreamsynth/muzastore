@@ -1,0 +1,155 @@
+.cm_showcase {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	grid-gap: 16px;
+}
+
+.cm_sc-elem {
+	padding: 16px;
+	border-radius: 8px;
+	background-color: #fff;
+	box-shadow: 0 1px 4px #040a1c25;
+	width: 100%;
+	display: grid;
+	grid-template-rows: 1fr max-content;
+	grid-gap: 12px;
+	transition: 0.15s ease-in-out;
+}
+
+.cm_sc-elem:hover {
+	cursor: pointer;
+	box-shadow: 0 2px 8px #040a1c40;
+	transition: 0.15s ease-in-out;
+	transform: translate(0, -4px);
+}
+
+.cm_sc-hd {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cm_sc-at {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+}
+
+.cm_sc-at-av {
+	display: block;
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+}
+
+.cm_sc-at-us {
+	font-weight: 600;
+	font-size: 18px;
+	color: #21305f;
+}
+
+.cm_sc-time {
+	font-weight: 500;
+	font-size: 14px;
+	color: #777;
+}
+
+.cm_sc-theme {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.cm_sc-title {
+	font-weight: 600;
+	font-size: 24px;
+	color: #333;
+}
+
+.cm_sc-desc {
+	font-weight: normal;
+	font-size: 16px;
+	color: #000;
+	line-height: 1.5;
+}
+
+.cm_sc-com {
+	border-top: 1px solid #ddd;
+	padding-top: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;	
+}
+
+.cm_sc-com-hd {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.cm_sc-com-icon {
+	display: block;
+	width: 24px;
+	height: 24px;
+}
+
+.cm_sc-com-label {
+	font-weight: 600;
+	font-size: 16px;
+	color: #222;
+}
+
+.cm_sc-com-elem {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	margin-bottom: 10px;	
+}
+
+.cm_sc-com-elem-at {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.cm_sc-com-el-label {
+	font-weight: normal;
+	font-size: 16px;
+	color: #000;
+	padding-left: 44px;
+	margin-bottom: 6px;
+}
+
+.cm_sc-com-el-time {
+	font-weight: normal;
+	font-size: 14px;
+	color: #777;
+	padding-left: 44px;
+}
+
+.cm_sc-com-more {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	width: 100%;
+	padding: 8px 0;
+	background-color: #fd2d51;
+	border-radius: 4px;
+}
+
+.cm_sc-com-mic {
+	display: block;
+	width: 24px;
+	height: 24px;
+	filter: invert(1);
+}
+
+.cm_sc-com-mlb {
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+}

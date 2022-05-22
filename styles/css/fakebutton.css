@@ -1,0 +1,9 @@
+.fakebutton:hover {
+	filter: contrast(0.85) brightness(1.1);
+	cursor: pointer;
+}
+
+.fakebutton:active {
+	filter: contrast(0.9) brightness(0.95);
+	cursor: pointer;
+}

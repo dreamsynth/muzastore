@@ -1,0 +1,135 @@
+.contentblock {
+	padding: 36px 16px !important;
+}
+
+.cb_hd {
+	padding: 0 0 16px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cb_hd-title {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.cb_hd-ht-icon {
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+
+.cb_hd-ht {
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.cb_hd-hi {
+	font-size: 16px;
+	font-weight: 600;
+	color: #555;
+}
+
+.cb_hd-sug {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 2px;
+}
+
+.cb_hd-btn2 {
+	padding: 8px 12px;
+	background-color: #d9d9dd;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.cb_hd-btn {
+	padding: 8px 12px;
+	background-color: #0d1d4f;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.cb_hd-sugbtn {
+	display: flex;
+	gap: 16px;
+}
+
+.cb_showcase {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	grid-gap: 16px;
+}
+
+.cb_sc-elem {
+	padding: 8px;
+	border-radius: 8px;
+	background-color: #fff;
+	box-shadow: 0 1px 4px #040a1c25;
+	width: 100%;
+	display: grid;
+	grid-template-rows: 1fr max-content;
+	grid-gap: 12px;
+	transition: 0.15s ease-in-out;
+}
+
+.cb_sc-elem:hover {
+	cursor: pointer;
+	box-shadow: 0 2px 8px #040a1c40;
+	transition: 0.15s ease-in-out;
+	transform: translate(0, -4px);
+}
+
+.cb_sc-artwork {
+	width: 100%;
+	border-radius: 4px;
+}
+
+.cb_sc-name {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.4;
+	margin-bottom: 4px;
+}
+
+.cb_sc-artist {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #0d1d4f;
+}
+
+.cb_sc-price {
+	display: flex;
+	gap: 10px;
+	margin-top: 6px;
+	font-weight: 600;
+	font-size: 16px;
+	color: #fb2a4f;
+}
+
+.cb_sc-soldprice {
+	margin-top: 6px;
+	font-weight: 600;
+	font-size: 16px;
+	color: #999;
+}
+
+.oldprice {
+	text-decoration: line-through;
+	font-weight: 500;
+	color: #bbb;
+}
